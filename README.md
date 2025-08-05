@@ -11,6 +11,10 @@ Syntax highlighting for [YINI](https://github.com/YINI-lang) configuration files
 1. Open `.yini` files in VSCode.
 2. If you use another editor (Sublime, Atom, etc), you can use `yini.tmLanguage.json` as your syntax file.
 
+## Customization
+
+- [Customizing Disabled Line Appearance in VSCode](./docs/VSCode.md)
+  
 ## Contributing
 
 Pull requests, bug reports, and improvements are welcome!
