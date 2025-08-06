@@ -36,7 +36,7 @@
       "match": "^(?i)@yini\\b"
     },    
     {
-      "name": "entity.name.function",
+      "name": "entity.name.type.class",
       "match": "^(\\s*)(\\^{1,})(\\s*)([A-Za-z0-9_\\-]+)"
     },
     {
