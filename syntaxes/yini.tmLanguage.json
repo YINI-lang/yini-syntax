@@ -3,6 +3,10 @@
   "scopeName": "source.yini",
   "patterns": [
     {
+      "name": "comment.line.shebang.yini",
+      "match": "^#!.*$"
+    },
+    {
       "name": "comment.line.double-slash.yini",
       "match": "//.*$"
     },
