@@ -44,14 +44,6 @@
       "match": "(?<=\\=|:|,|\\[|\\{)\\s*([+-]?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)"
     },
     {
-      "name": "constant.language.boolean.yini",
-      "match": "(?<=\\=|:|,|\\[|\\{)\\s*\\b(true|false|on|off|yes|no)\\b"
-    },
-    {
-      "name": "constant.language.null.yini",
-      "match": "(?<=\\=|:|,|\\[|\\{)\\s*\\b(null|none|~)\\b"
-    },
-    {
       "name": "string.quoted.single.yini",
       "begin": "'",
       "end": "'",
@@ -74,8 +66,12 @@
       ]
     },
     {
-      "name": "string.unquoted.yini",
-      "match": "(?<=\\=|:|,|\\[|\\{)\\s*[A-Za-z0-9_\\-]+"
+      "name": "constant.language.boolean.yini",
+      "match": "(?i)\\b(true|false|on|off|yes|no)\\b"
+    },
+    {
+      "name": "constant.language.null.yini",
+      "match": "(?i)\\bnull\\b"
     },
     {
       "name": "punctuation.separator.key-value.yini",
