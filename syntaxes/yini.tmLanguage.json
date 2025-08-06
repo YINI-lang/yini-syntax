@@ -24,6 +24,14 @@
       "match": "--.*$"
     },
     {
+      "name": "constant.language.boolean.yini",
+      "match": "(?i)\\b(true|false|on|off|yes|no)\\b"
+    },
+    {
+      "name": "constant.language.null.yini",
+      "match": "(?i)\\bnull\\b"
+    },
+    {
       "name": "keyword.control.yini",
       "match": "^(?i)@yini\\b"
     },    
@@ -64,14 +72,6 @@
           "match": "\\\\."
         }
       ]
-    },
-    {
-      "name": "constant.language.boolean.yini",
-      "match": "(?i)\\b(true|false|on|off|yes|no)\\b"
-    },
-    {
-      "name": "constant.language.null.yini",
-      "match": "(?i)\\bnull\\b"
     },
     {
       "name": "punctuation.separator.key-value.yini",
