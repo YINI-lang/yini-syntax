@@ -1,9 +1,9 @@
 {
   "name": "yini-syntax",
   "displayName": "YINI Syntax Highlighting",
-  "description": "Syntax highlighting for YINI config files (works in VSCode and other editors supporting TextMate grammars).",
-  "version": "0.0.1",
-  "publisher": "your-name-or-org",
+  "description": "Syntax highlighting for the YINI config files (works in VSCode and other editors supporting TextMate grammars).",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
   "engines": {
     "vscode": "^1.40.0"
   },
