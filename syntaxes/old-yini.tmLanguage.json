@@ -17,7 +17,7 @@
     {
       "name": "comment.line.semicolon.yini",
       "match": "^[ \\t]*;.*$"
-    },
+    },    
     {
       "name": "comment.block.yini",
       "begin": "/\\*",
@@ -38,14 +38,14 @@
     {
       "name": "keyword.control.yini",
       "match": "^(?i)@yini\\b"
-    },
+    },    
     {
       "name": "entity.name.type.class",
       "match": "^(\\s*)(?:\\^{1,6}|<|\\^(?:[7-9]|\\d{2,}))(\\s+)(?:[A-Za-z_][A-Za-z0-9_]*|`[^`]*`)"
     },
     {
       "name": "variable.other.key.yini",
-      "match": "^\\s*(?:[A-Za-z_][A-Za-z0-9_]*|`[^`\\t\\r\\n]*`)(?=\\s*=)"
+      "match": "^\\s*([A-Za-z0-9_\\-]+)(?=\\s*=)"
     },
     {
       "name": "constant.numeric.hex.yini",
@@ -108,9 +108,7 @@
   ],
   "repository": {},
   "fileTypes": [
-    "yini",
-    "Yini",
-    "YINI"
+    "yini", "Yini", "YINI"
   ],
   "uuid": "3a3c46a3-f5b0-4c4a-b7e8-0a48c2a1ecbf"
 }
