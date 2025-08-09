@@ -13,7 +13,7 @@ Syntax highlighting for [YINI](https://github.com/YINI-lang) configuration files
 
 ## Customization
 
-- [Customizing Disabled Line Appearance in VSCode](./docs/VSCode.md)
+- [Customizing Disabled Line Appearance in VSCode](https://github.com/YINI-lang/yini-syntax/blob/main/docs/VSCode.md)
   
 ## Contributing
 
