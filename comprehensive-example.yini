@@ -6,7 +6,7 @@
     many syntax features, section header styles, data
     types, and comment types/styles as possible.
 
-    Version: 1.0.1
+    Version: 1.0.2
 */
 
 /*
@@ -81,18 +81,35 @@ exp1 = 0.99e3
 exp2 = -0.30e2
 exp3 = 1.0e0    // Edge-case!
 exp4 = .5e2     # Edge-case!
+
 ; Hexadecimal notation
-hex1 = #FFEEAA    // A hash without any tab/space after is interpreted as hex
-hex2 = 0xDEADBEEF   // The common "0x" works too
-hex3 = #000
-hex4 = #01
-hex4 = 0x01
-hex4 = 0X01
-hex5 = 0x000a
-hex6 = 0x0FF0
+hex1  = #0
+hex2  = #0F
+hex3  = #FFEE       // A hash without any tab/space after is interpreted as hex
+hex4  = #aabb99
+hex5  = 0x0            // With alterantive notaion 0x
+hex6  = 0x0F
+hex7  = 0xFFEE
+hex8  = 0xaabb99
+hex9  = 0X0            // With alterantive notaion 0X
+hex10 = 0X0F
+hex11 = 0XFFEE
+hex12 = 0Xaabb99
 
 ; Binary notation
-//@todo
+bin1  = %0           // Zero in binary
+bin2  = %1           // Smallest positive integer
+bin3  = %1111111     // Decimal 127 (max signed 8-bit)
+bin4  = %01011
+bin5  = 0b0          // With alterantive notaion 0b
+bin6  = 0b1
+bin7  = 0b1111111
+bin8  = 0b01011
+bin9  = 0B0          // With alterantive notaion 0B
+bin10 = 0B1
+bin11 = 0B1111111
+bin12 = 0B01011
+
 ; Duodecimal notation
 //@todo
 ; Oct notation
