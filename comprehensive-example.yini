@@ -6,7 +6,7 @@
     many syntax features, section header styles, data
     types, and comment types/styles as possible.
 
-    Version: 1.0.2
+    Version: 1.0.3
 */
 
 /*
@@ -112,8 +112,19 @@ bin12 = 0B01011
 
 ; Duodecimal notation
 //@todo
+
 ; Oct notation
-//@todo
+oct1  = 0o0     // Zero in octal
+oct2  = 0o00    // Zero in octal
+oct3  = 0o7     // Decimal 7 (max single octal digit)
+oct4  = 0o10    // Decimal 8
+oct5  = 0o755
+oct6  = 0O0     // Zero in octal
+oct7  = 0O00    // Zero in octal
+oct8  = 0O7     // Decimal 7 (max single octal digit)
+oct9  = 0O10    // Decimal 8
+oct10 = 0O755
+
 
 ; Raw strings can optionally be prefixed with R or r to be explicit
 rawString1 = R'This is a "raw" string, it is as-is, no escapes are interpreted'
